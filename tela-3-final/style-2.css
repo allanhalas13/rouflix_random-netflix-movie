@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:300,400,700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px rgba(10, 0, 27, 0.479);
+    height: 95%;
+    width: 400px;
+    background: #d1d1d1;
+}
+
+.mediaCard {
+    background: url("https://static.vecteezy.com/system/resources/previews/001/826/221/non_2x/progress-loading-bar-buffering-download-upload-and-loading-icon-vector.jpg") center/cover;
+    height: 340px;
+    width: 100%;
+}
+
+.topCard {
+    height: 35px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #B81D24;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title {
+    color: #0a0a3d;
+}
+
+.secondText {
+    color: rgb(157, 151, 189);
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.bottomText {
+    color: #445b73;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.actions {
+    height: 25px;
+    background: #0a0a3da8;
+    box-shadow: 0px 2px 5px #03033096;
+    border-radius: 5px;
+    margin: 10px;
+}
